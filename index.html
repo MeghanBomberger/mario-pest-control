@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Mario Pest Control</title>
+		<link rel="stylesheet" href="styles.css">
+	</head>
+
+	<body>
+		<header>
+			<h1>Mario's Pest Control Invoice Submission</h1>
+			<div id="dot1"></div>
+			<div id="dot2"></div>
+			<div id="dot3"></div>
+			<div id="dot4"></div>
+		</header>
+
+		<main>
+			<section>
+				<div class="pricing-table" id=pricingTable>
+					<div id="check-bounty">
+						<button id="checkBounty">Check Bounties</button>
+					</div>
+					<div id="goomba-pic">
+						<img src="https://vignette.wikia.nocookie.net/pmrp/images/c/cd/0D23341E-B172-447D-B3EA-2F3E9D2A34ED.png/revision/latest?cb=20171220021757">
+					</div>
+					<div id="bobomb-pic">
+						<img src="http://vignette4.wikia.nocookie.net/thedimensionsaga/images/0/06/Bob-omb.png">
+					</div>
+					<div id="cheep-pic">
+						<img src="https://vignette.wikia.nocookie.net/pmrp/images/f/ff/Big_Cheep_Cheep_PMSS.png/revision/latest?cb=20180218063330">
+					</div>
+					<div class="pricing-coins" id="goombaCoins"></div>
+					<div class="pricing-coins" id="bobombCoins"></div>
+					<div class="pricing-coins" id="cheepcheepCoins"></div>
+				</div>
+			</section>
+
+			<section class="kill-logger">
+				<div id="kill-logger-header">
+					<p>tally the dead baddies</p>
+				</div>
+				<form id="kill-logger-form" name="killLogger">
+					<div id="mario-smash">
+						<img src="https://vignette.wikia.nocookie.net/fantendo/images/f/f0/PaperMarioBeta.png/revision/latest?cb=20161203054644">
+					</div>
+					<div id="1A">
+						<p>Goombas killed: </p>
+					</div>
+					<div id="1B">
+						<input name="goombaNewKills" type="number" value=0>
+					</div>
+					<div id="2A">
+						<p>Bo-Bombs killed: </p>
+					</div>
+					<div id="2B">
+						<input name="bobombNewKills" type="number" value=0>
+					</div>
+					<div id="3A">
+						<p>Cheep-Cheeps killed: </p>
+					</div>
+					<div id="3B">
+						<input name="cheepcheepNewKills" type="number" value=0>
+					</div>
+					<div id="submit-tally">
+						<button name="submitTally">Add to Baddie Count</button>
+					</div>
+				</form>
+			</section>
+
+			<section class="current-total">
+				<div id="kill-count-header">
+					<p>Current Kill Count</p>
+				</div>
+				<p id="goombaTally"></p>
+				<p id="bobombTally"></p>
+				<p id="cheepcheepTally"></p>
+				<div id="goomba-pic-2">
+					<img src="https://vignette.wikia.nocookie.net/pmrp/images/c/cd/0D23341E-B172-447D-B3EA-2F3E9D2A34ED.png/revision/latest?cb=20171220021757">
+				</div>
+				<div id="bobomb-pic-2">
+					<img src="http://vignette4.wikia.nocookie.net/thedimensionsaga/images/0/06/Bob-omb.png">
+				</div>
+				<div id="cheep-pic-2">
+					<img src="https://vignette.wikia.nocookie.net/pmrp/images/f/ff/Big_Cheep_Cheep_PMSS.png/revision/latest?cb=20180218063330">
+				</div>
+				<p id="goombaSubTotal"></p>
+				<p id="bobombSubTotal"></p>
+				<p id="cheepcheepSubTotal"></p>
+				<div id="coin1">
+					<img id="kill-coin" src="https://art.pixilart.com/910a8762ee4a7c7.png">
+				</div>
+				<div id="coin2">
+					<img id="kill-coin" src="https://art.pixilart.com/910a8762ee4a7c7.png">
+				</div>
+				<div id="coin3">
+					<img id="kill-coin" src="https://art.pixilart.com/910a8762ee4a7c7.png">
+				</div>
+			</section>
+
+			<section class="invoice">
+				<div id="submit-invoice">
+					<button id="submitInvoice">submit invoice</button>
+				</div>
+				<div id="printInvoiceHere"></div>
+			</section>
+		</main>
+
+		<footer>
+			<div id="contact-info">
+				<span id="footer1">mario@mariospestcontrol.com</span>
+				<span id="footer2">mariospestcontrol.com</span>
+				<span id="footer3">557 Hicks St, Brooklyn NY 11231</span>
+			</div>
+			<div id="dot1"></div>
+			<div id="dot2"></div>
+			<div id="dot3"></div>
+			<div id="dot4"></div>
+		</footer>
+
+		<script src="app.js"></script>
+	</body>
+</html>
